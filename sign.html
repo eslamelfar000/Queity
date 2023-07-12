@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/sign.css">
+    <link rel="icon" href="pics/favicon.png">
+    <title>Quiety - Sign In | Software & IT Solutions</title>
+</head>
+
+<body>
+
+    <div id="spinner" class="spinner">
+        <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+
+
+    <div class="section">
+        <div class="sec-cover">
+            <div class="container">
+                <div class="row">
+                    <div class="logo">
+                        <img src="pics/logo-2.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-11 col-md-9 col-lg-6 col-xl-5">
+                        <div class="sec-col">
+                            <a href="home.html" class="back"><i class="fas fa-arrow-left"
+                                    style="margin-right: 5px;"></i> Back to Home</a>
+                            <h1>Nice to Seeing You Again</h1>
+                            <p>Please log in to access your account web-enabled methods of innovative niches.</p>
+
+                            <div class="google">
+                                <a href="#" class="btn sec-google">
+                                    <img src="pics/google-icon.svg" alt="">
+                                    <span class="google-span">Connect with Google</span>
+                                </a>
+                            </div>
+
+                            <div class="line">
+                                <span class="or">Or</span>
+                            </div>
+
+
+                            <form action="">
+                                <label for="">Email <span class="astric">*</span></label><br>
+                                <input type="text" placeholder="Email">
+
+                                <br>
+
+                                <label for="">Password <span class="astric">*</span></label><br>
+                                <input type="password" placeholder="Password">
+                            </form>
+
+                            <button type="submit">Submit</button>
+
+                            <br>
+
+                            <div class="forget">
+                                <a href="" class="sec-a">Forgot password</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/quity.js "></script>
+    <script src="bootstrap-5.0.0-beta2-dist/js/bootstrap.js "></script>
+    <script src="bootstrap-5.0.0-beta2-dist/js/bootstrap.js "></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            "use strict";
+            var spinner = document.getElementById('spinner')
+            document.body.style.overflow = "hidden";
+
+            setTimeout(function() {
+                // spinner.style.display = "none"
+                document.body.style.overflowY = "auto";
+                document.body.style.overflowX = "hidden";
+            }, 1600)
+
+            $(window).ready(function() {
+                $("#spinner").delay(1500).fadeOut("fade");
+            });
+        }
+    </script>
+</body>
+
+</html>
