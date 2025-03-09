@@ -837,6 +837,10 @@ header {
     margin: auto;
 }
 
+.section-5 .sec5-img{
+    overflow: hidden;
+}
+
 .section-5 .row .img1 {
     background: url(../pics/office-img-1.jpg);
 }

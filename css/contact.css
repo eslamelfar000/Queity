@@ -435,10 +435,10 @@ header {
 
 .section-2 .row .sec2-col .sec2-h3 {
     font-size: 21px;
-    font-weight: 600;
+    font-weight: 700;
     color: #00032f;
     margin-bottom: 10px;
-    font-family: fantasy;
+    /* font-family: fantasy; */
 }
 
 .section-2 .row .sec2-col .sec2-p {
@@ -488,7 +488,7 @@ header {
 
 .section-3 .row .sec3-form .sec3-h {
     font-size: 40px;
-    font-family: fantasy;
+    /* font-family: fantasy; */
     font-weight: bold;
     margin-bottom: 20px;
     color: #00054e;
